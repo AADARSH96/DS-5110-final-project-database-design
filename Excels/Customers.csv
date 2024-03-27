@@ -1,0 +1,21 @@
+﻿CustomerID,Name,PhoneNumber,Email,Address
+1,John Smith,555-123-4567,"123 Main St, Cityville, CA",john@example.com
+2,Emily Johnson,555-987-6543,"456 Elm St, Townsville, NY",emily@example.com
+3,Michael Brown,555-111-2222,"789 Oak Ave, Villagetown, TX",michael@example.com
+4,Sarah Lee,555-222-3333,"101 Pine St, Hamletville, FL",sarah@example.com
+5,David Kim,555-444-5555,"202 Maple Dr, Countryside, IL",david@example.com
+6,Jennifer Wang,555-777-8888,"303 Cedar Ln, Hilltop, OH",jennifer@example.com
+7,James Miller,555-666-7777,"404 Birch Rd, Rivershore, WA",james@example.com
+8,Amanda Davis,555-888-9999,"505 Walnut Ave, Groveton, MI",amanda@example.com
+9,Robert Wilson,555-333-2222,"606 Spruce St, Lakeside, NV",robert@example.com
+10,Lisa Brown,555-222-1111,"707 Willow Pl, Mountainview, CA",lisa@example.com
+11,Daniel Garcia,555-777-3333,"808 Birch Ln, Seaview, OR",daniel@example.com
+12,Jessica Taylor,555-999-8888,"909 Elm Ave, Hillside, NY",jessica@example.com
+13,Matthew Clark,555-333-4444,"111 Cedar Dr, Lakeshore, IL",matthew@example.com
+14,Ashley Martinez,555-888-5555,"222 Oak St, Valleyview, TX",ashley@example.com
+15,Christopher Rodriguez,555-111-9999,"333 Maple Ave, Riverside, CA",chris@example.com
+16,Samantha Nguyen,555-222-6666,"444 Pine Ln, Hillsborough, NJ",samantha@example.com
+17,Kevin Hernandez,555-333-7777,"555 Cedar Rd, Seaville, FL",kevin@example.com
+18,Megan King,555-777-4444,"666 Elm St, Oakville, MO",megan@example.com
+19,Justin Chen,555-666-8888,"777 Birch Dr, Mountaintop, WA",justin@example.com
+20,Rachel Adams,555-555-5555,"888 Oak Ave, Riverside, CA",rachel@example.com
