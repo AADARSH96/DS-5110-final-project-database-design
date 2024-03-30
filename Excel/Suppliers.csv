@@ -1,0 +1,14 @@
+﻿SupplierID,Name,PhoneNumber,Address,Email,Password
+1001,Electronics R Us,(555) 123-4567,"123 Tech Street, Tech City, USA",info@electronicsrus.com,1001
+1002,Men's Fashion Warehouse,(555) 987-6543,"456 Style Avenue, Fashion City, USA",sales@mensfashionwarehouse.com,1002
+1003,Women's Style Emporium,(555) 321-7890,"789 Trendy Road, Chic Town, USA",support@womensstyleemporium.com,1003
+1004,Grocery Essentials,(555) 456-7890,"321 Market Square, Freshville, USA",orders@groceryessentials.com,1004
+1005,Appliance Depot,(555) 876-5432,"567 Home Plaza, Appliance City, USA",info@appliancedepot.com,1005
+1006,Beauty Haven,(555) 234-5678,"789 Glamour Lane, Beautyville, USA",support@beautyhaven.com,1006
+1007,Furniture World,(555) 876-1234,"101 Comfort Road, Cozy Town, USA",sales@furnitureworld.com,1007
+1008,Mobile Solutions,(555) 567-8901,"246 Smartphone Avenue, Mobile City, USA",info@mobilesolutions.com,1008
+1009,Bookworm's Paradise,(555) 678-9012,"888 Literary Lane, Book Town, USA",support@bookwormsparadise.com,1009
+1010,Toys and Games Unlimited,(555) 345-6789,"369 Fun Street, Playtown, USA",sales@toysandgamesunlimited.com,1010
+1011,Foodie's Delight,(555) 789-0123,"741 Gourmet Avenue, Culinary City, USA",orders@foodiesdelight.com,1011
+1012,Sports Emporium,(555) 901-2345,"555 Fitness Plaza, Sportstown, USA",info@sportsemporium.com,1012
+1013,Automotive Essentials,(555) 432-1098,"123 Car Street, Auto City, USA",support@automotiveessentials.com,1013

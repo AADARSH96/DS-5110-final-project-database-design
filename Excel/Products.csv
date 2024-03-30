@@ -1,0 +1,47 @@
+﻿ProductID,Name,Description,Price,CategoryID,SupplierID
+1,Smartphone X200,Latest model with 128GB storage,999.99,8,1008
+2,Casual Sneakers - Men,Comfortable and stylish in various sizes,59.99,2,1002
+3,Electric Kettle 1.5L,"Fast boiling, stainless steel",29.99,5,1005
+4,Fantasy Novel Series Box Set,"Complete epic fantasy series, 5 books included",65,9,1009
+5,Modern Desk Lamp,"LED, adjustable brightness, USB charging port",45.99,5,1005
+6,Hydrating Skin Serum,With hyaluronic acid for all skin types,25.99,6,1006
+7,Puzzle 1000 Pieces - Ocean View,"High-quality, challenging puzzle for all ages",20.99,10,1010
+8,Outdoor Sleeping Bag,"Lightweight, waterproof, 4 seasons",70,12,1012
+9,Gourmet Coffee Beans 1kg,"Premium blend, freshly roasted",18.99,4,1004
+10,Wireless Earbuds,"Noise cancellation, long battery life",129.99,1,1001
+11,Yoga Mat 6mm,"Non-slip, eco-friendly material",29.99,12,1012
+12,Action Camera 4K Waterproof,"High-resolution, durable, includes accessories",119.99,1,1001
+13,Stainless Steel Cookware Set 10-Piece,"Durable, easy to clean, suitable for all stovetops",199.99,5,1005
+14,Men's Running Shorts,"Lightweight, quick-dry, multiple pockets",22.99,2,1002
+15,LED Smart Bulb,"Color-changing, compatible with smart homes",14.99,5,1005
+16,Portable Bluetooth Speaker,"High-quality sound, waterproof, compact",59.99,1,1001
+17,Digital Kitchen Scale,"Precise measurements, sleek design",19.99,5,1005
+18,Board Game - Strategy Edition,"Engaging for ages 12 and up, 2-6 players",34.99,10,1010
+19,Vegan Protein Powder 1kg,"Plant-based, chocolate flavor",29.99,4,1004
+20,Cycling Water Bottle,"Leak-proof, BPA-free, 750ml",9.99,12,1012
+21,"Laptop - 15.6"" Full HD","Powerful performance, SSD storage",899.99,1,1001
+22,Women's Leather Handbag,"Stylish and spacious, multiple compartments",79.99,3,1003
+23,Slow Cooker 6-Quart,"Programmable, ceramic pot, perfect for stews",49.95,5,1005
+24,Classic Novels Box Set,"Timeless literature collection, 10 books included",99,9,1009
+25,Desk Organizer - Bamboo,"Eco-friendly, multiple compartments, sleek design",29.99,7,1007
+26,Anti-Aging Night Cream,"Retinol-infused, hydrating formula",35.99,6,1006
+27,Jigsaw Puzzle 500 Pieces - Animals,Fun and educational for kids and adults,12.99,10,1010
+28,Camping Hammock with Mosquito Net,"Lightweight, easy setup, compact",39.99,12,1012
+29,Organic Green Tea 100 Bags,"High-quality, antioxidant-rich",15.99,11,1011
+30,Bluetooth Headphones,"Wireless, over-ear design, long battery life",59.99,1,1001
+31,Resistance Bands Set,"Versatile for home workouts, includes 5 bands",24.99,5,1005
+32,DSLR Camera - 24MP,"Professional-grade, multiple lenses available",1499.99,1,1001
+33,Non-Stick Cookware Set 12-Piece,"PFOA-free, heat-resistant handles",129.99,5,1005
+34,Women's Athletic Leggings,"Moisture-wicking fabric, squat-proof",29.99,3,1003
+35,Smart Plug - WiFi Enabled,"Remote control via smartphone app, energy-saving",19.99,1,1001
+36,Portable Power Bank 20000mAh,"High-capacity, dual USB ports",39.99,1,1001
+37,French Press Coffee Maker - 34oz,"Borosilicate glass, stainless steel frame",24.95,5,1005
+38,Strategy Board Game - Medieval Theme,"Tactical gameplay, 2-4 players",39.99,10,1010
+39,Plant-Based Protein Bars - Variety Pack,"Vegan, gluten-free, assorted flavors",19.99,11,1011
+40,Insulated Water Bottle - 32oz,"Double-walled stainless steel, keeps drinks cold",17.99,5,1005
+41,Honda - CB500F,The Honda CB500F is a versatile naked sport bike with a responsive inline-four engine and agile handling. ,2999,13,1013
+42,Toyota - Camry,Reliable family sedan with excellent fuel efficiency.,4999,13,1013
+43,I-Phone 13 Pro,"The iPhone 13 Pro is the latest flagship smartphone from Apple, boasting cutting-edge technology and premium features",1499,8,1008
+44,Modern Coffee Table,Elevate your living room with this sleek and contemporary coffee table. ,199.99,7,1007
+45,Oak Wood Coffee Table,Elegant and sturdy coffee table made from high-quality oak wood. Features a spacious top surface and a lower shelf for additional storage. Perfect for any living room.,250,7,1007
+46,Modern Leather Sofa,This modern sofa features a sleek design and luxurious leather upholstery. It comfortably seats three and is a perfect centerpiece for your living room.,1200,7,1007
