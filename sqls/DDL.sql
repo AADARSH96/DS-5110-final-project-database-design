@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS inventory_db_new;
-create database `inventory_db_new`;
-use inventory_db_new;
+DROP DATABASE IF EXISTS inventory_db;
+create database `inventory_db`;
+use inventory_db;
 -- Categories Table
 CREATE TABLE Categories (
     CategoryID INT AUTO_INCREMENT PRIMARY KEY,

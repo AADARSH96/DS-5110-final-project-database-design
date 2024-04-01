@@ -1,16 +1,14 @@
 import mysql.connector
 import pandas as pd
+import warnings
+import mysql.connector
+from mysql.connector import errorcode
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.min_rows', None)
 pd.set_option('display.expand_frame_repr', True)
-import warnings
-
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-import mysql.connector
-
-from mysql.connector import errorcode
 
 
 # Function to establish connection to MySQL database
@@ -18,7 +16,7 @@ def connect_to_database():
     # Connect to MySQL server
     try:
         return mysql.connector.connect(host='127.0.0.1',
-                                       database='inventory_db_new',
+                                       database='inventory_db',
                                        user='root',
                                        password='')
     except mysql.connector.Error as err:
