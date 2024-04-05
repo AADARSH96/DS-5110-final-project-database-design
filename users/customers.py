@@ -14,7 +14,8 @@ try:
         raise UserError(f"user id {user_id} does not exist. Please enter valid used id")
     print("User Id entered is:", user_id)
 
-    print("What do you want to do - 1.View Products| 2.Add to Cart | 3.Place Order | 4.View Profile | 5.Top Products")
+    print("What do you want to do - 1.View Products| 2.Add to Cart | 3.View Cart | 4.Place Order | 5.View Profile | "
+          "6.Top Products")
     option = int(input("Enter your option:"))
     if option == 1:
         products = execute_query(conn,
@@ -30,11 +31,16 @@ try:
         conn.commit()
         print("added to cart successfully")
     elif option == 3:
+        cart = execute_query(conn,
+                             f"select ProductId,Name,Description,CartQuantity,Price from view_cart where customerID={user_id}")
+        print("Cart:")
+        print(cart)
+    elif option == 4:
         product_id = input('Enter the Product ID (if multiple products enter by comma seperated):')
         data = execute_stored_procedure(conn, 'PlaceOrder', (user_id, product_id))
         conn.commit()
         print("order placed successfully")
-    elif option == 4:
+    elif option == 5:
         user_details = execute_query(conn, f"select * from user_info where CustomerID = {user_id}")
         print("Your Profile")
         print(user_details)
@@ -42,7 +48,7 @@ try:
         order_history = execute_query(conn, f"select * from user_orders where CustomerID = {user_id}")
         print("Your order History")
         print(order_history)
-    elif option == 5:
+    elif option == 6:
         top_selling = execute_query(conn, "select * from top_selling_products")
         print("Top Selling Products")
         print(top_selling)

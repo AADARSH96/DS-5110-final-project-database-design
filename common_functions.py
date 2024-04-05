@@ -18,7 +18,7 @@ def connect_to_database():
         return mysql.connector.connect(host='127.0.0.1',
                                        database='inventory_db',
                                        user='root',
-                                       password='')
+                                       password='Raghuram@2000')
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
             print("Something is wrong with your username or password")
