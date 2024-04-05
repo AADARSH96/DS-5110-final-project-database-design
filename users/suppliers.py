@@ -4,6 +4,8 @@ from common_exceptions import UserError, WrongOption
 from getpass import getpass
 import pyautogui
 import ast
+import pandas as pd
+from tabulate import tabulate
 conn = connect_to_database()
 
 try:
@@ -20,8 +22,9 @@ try:
 
     if option == 1:
         supplier_details = execute_query(conn, f"select * from supplier_info where SupplierID = {supplier_id}")
+        df = pd.DataFrame(supplier_details)
         print("Your Profile")
-        print(supplier_details)
+        print(tabulate(df, headers='keys'))
     elif option == 2:
         product_name = input('Enter the Product Name:')
         product_description = input('Enter the Product Description:')
