@@ -39,10 +39,10 @@ try:
         conn.commit()
     elif option == 3:
         product_id = input('Enter the Product ID:')
-        product_name = ast.literal_eval(input('Enter the Product Name:'))
-        product_description = ast.literal_eval(input('Enter the Product Description:'))
-        price = ast.literal_eval(input('Enter the Product price:'))
-        category_id = ast.literal_eval(input('Enter the Product Category ID:'))
+        product_name = input('Enter the Product Name:')
+        product_description = input('Enter the Product Description:')
+        price = input('Enter the Product price:')
+        category_id = input('Enter the Product Category ID:')
         password = pyautogui.password(text='Enter the Supplier password', title='', default='', mask='*')
 
         data = execute_stored_procedure(conn, 'ModifyProduct',
@@ -54,6 +54,7 @@ try:
         password = pyautogui.password(text='Enter the Supplier password', title='', default='', mask='*')
 
         data = execute_stored_procedure(conn, 'DeleteProduct', (product_id, supplier_id, password))
+        print("Product deleted successfully")
         conn.commit()
     elif option == 5:
         product_id = input('Enter the Product ID:')
@@ -65,12 +66,14 @@ try:
         data = execute_stored_procedure(conn, 'ModifyOrAddDiscount',
                                         (product_id, supplier_id, discount_price, start_date, end_date, password))
         conn.commit()
+        print("Product Discount added successfully")
     elif option == 6:
         product_id = input('Enter the Product ID:')
         password = pyautogui.password(text='Enter the Supplier password', title='', default='', mask='*')
 
-        data = execute_stored_procedure(conn, 'DeleteDiscount', (product_id, supplier_id, password))
+        data = execute_stored_procedure(conn, 'DeleteDiscountsForProduct', (product_id, supplier_id, password))
         conn.commit()
+        print("Discount has been deleted for the product")
     elif option == 7:
         product_id = input('Enter the Product ID:')
         quantity = input('Enter the number of quantity to add:')
@@ -78,6 +81,7 @@ try:
 
         data = execute_stored_procedure(conn, 'AddProductQuantity', (product_id, quantity, supplier_id, password))
         conn.commit()
+        print("Successfully Updated the quantity of the product")
     elif option == 8:
         order_id = input('Enter the Order ID:')
         product_id = input('Enter the Product ID:')
@@ -87,6 +91,7 @@ try:
         data = execute_stored_procedure(conn, 'UpdateOrderStatus',
                                         (order_id, product_id, supplier_id, status, password))
         conn.commit()
+        print("Order status have been changed successfully")
     else:
         raise WrongOption(f"Option {option} is not available. Please choose from 1-8 options ")
 except UserError as e:

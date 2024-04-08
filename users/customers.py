@@ -2,6 +2,7 @@ import sys
 import warnings
 from common_functions import connect_to_database, execute_query, execute_stored_procedure
 from common_exceptions import UserError, WrongOption
+from tabulate import tabulate
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
@@ -23,7 +24,7 @@ try:
                                     Category,Supplier,SupplierEmail,AverageRating from products_info """
                                  )
         print(" Products")
-        print(products)
+        print(tabulate(products, headers='keys'))
     elif option == 2:
         product_id = input('Enter the Product ID (if multiple products enter by comma separated):')
         Quantity = input('Enter the Product Quantity(if multiple products enter by comma separated):')
@@ -34,7 +35,7 @@ try:
         cart = execute_query(conn,
                              f"select ProductId,Name,Description,CartQuantity,Price from view_cart where customerID={user_id}")
         print("Cart:")
-        print(cart)
+        print(tabulate(cart, headers='keys'))
     elif option == 4:
         product_id = input('Enter the Product ID (if multiple products enter by comma seperated):')
         data = execute_stored_procedure(conn, 'PlaceOrder', (user_id, product_id))
@@ -43,19 +44,19 @@ try:
     elif option == 5:
         user_details = execute_query(conn, f"select * from user_info where CustomerID = {user_id}")
         print("Your Profile")
-        print(user_details)
+        print(tabulate(user_details, headers='keys'))
 
         order_history = execute_query(conn, f"select * from user_orders where CustomerID = {user_id}")
         print("Your order History")
-        print(order_history)
+        print(tabulate(order_history, headers='keys'))
     elif option == 6:
         top_selling = execute_query(conn, "select * from top_selling_products")
         print("Top Selling Products")
-        print(top_selling)
+        print(tabulate(top_selling, headers='keys'))
 
         top_rated = execute_query(conn, "select * from top_rated_products")
         print("Top Rated Products")
-        print(top_rated)
+        print(tabulate(top_rated, headers='keys'))
     else:
         raise WrongOption(f"Option {option} is not available. Please choose from 1,2,3,4,5 options ")
 except UserError as e:
