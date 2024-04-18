@@ -26,4 +26,8 @@
 
  - new_graphs.py - used to generate graphs
 
+ - ERD
+   
+
+<img width="621" alt="ERD" src="https://github.com/AADARSH96/DS-5110-final-project-database-design/assets/30507087/0ab9c053-8d59-49fa-83e5-4927a3c71790">
 
