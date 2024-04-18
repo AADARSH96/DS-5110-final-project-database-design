@@ -26,8 +26,8 @@ try:
         print(" Products")
         print(tabulate(products, headers='keys'))
     elif option == 2:
-        product_id = input('Enter the Product ID (if multiple products enter by comma separated):')
-        Quantity = input('Enter the Product Quantity(if multiple products enter by comma separated):')
+        product_id = input('Enter the Product ID:')
+        Quantity = input('Enter the Product Quantity:')
         add_to_cart = execute_stored_procedure(conn, 'AddtoCart', (user_id, product_id, Quantity))
         conn.commit()
         print("added to cart successfully")
